@@ -5,18 +5,17 @@
 </template>
 
 <script>
-  import HomePage from './page/homePage.vue';
+import HomePage from './page/homePage.vue';
+
 export default {
-  name: 'App',
-  components:{
-    HomePage,
-  }
+    name: 'App',
+    components: { HomePage }
 }
 </script>
 <style>
 @import url('./style/reset.css');
 #app {
   font-family:  'Roboto', sans-serif;
-  padding: 20px;
+  padding: 0px 20px;
 }
 </style>
